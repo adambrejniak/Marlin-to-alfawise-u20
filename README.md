@@ -1,4 +1,8 @@
-# Marlin_2.0.X_Beta_Alfawise_Ux0
+# This is project from https://www.lesimprimantes3d.fr/forum/topic/18260-alfawise-u20x-u30-marlin-2x-firmware-alternatif/
+I change the language, baudrate ect.
+
+
+## Marlin_2.0.X_Beta_Alfawise_Ux0
 
 This is the initial commit of the Marlin 2.0.X code port to Alfawise Ux0 boards. ONLY COMPILES with STM32 5.3.0 Libs or above
 
@@ -9,7 +13,7 @@ To build the code, you need to install Vscode + Platformio. Detailled tutorial i
 https://www.lesimprimantes3d.fr/forum/topic/18260-alfawise-u20x-u30-marlin-2x-firmware-alternatif/
 
 
-## Development
+### Development
 For developpers, or debugging if the screen does not work :
 
 - ILI9341 support / init code
@@ -25,13 +29,13 @@ designer mixed pins MOSI and MISO while routing the board
 - Integrated touchscreen calibration in Configuration/Touchscreen menu (to get your values)
 - Fixed the runout sensor
 
-## To be done
+### To be done
 
 - Store the calibration results directly in settings
 - Include some Z Probes configuration samples
 - Fix the Powerloss recovery resume (seems a Marlin bug for now)
 
-## Configuration
+### Configuration
 
 - 1 extruder with 1 temperature probe
 - 1 heater bed with 1 temperature probe. U20 or U30 flag to be set at the beginning of config.h
