@@ -1,6 +1,6 @@
 # This is project from https://www.lesimprimantes3d.fr/forum/topic/18260-alfawise-u20x-u30-marlin-2x-firmware-alternatif/
 I change the language, baudrate ect.
-
+Now I try switch to version Marlin v2.0.7
 
 ## Marlin_2.0.X_Beta_Alfawise_Ux0
 
